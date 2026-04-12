@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int num1, num2, sum;
+
+    // Prompt user for input
+    printf("Enter two integers: ");
+
+    // Read input and store in num1 and num2
+    // %d is the format specifier for integers
+    scanf("%d %d", &num1, &num2);
+
+    // Calculate sum using the + operator
+    sum = num1 + num2;
+
+    // Print the result
+    printf("%d + %d = %d\n", num1, num2, sum);
+
+    return 0;
+}
